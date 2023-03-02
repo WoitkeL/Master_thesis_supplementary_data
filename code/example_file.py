@@ -25,18 +25,7 @@ example1.print_RN()
 #for i in example1.reaction_network:
  #   i.reversible=False
 """example1=Analyse("C:/Users/linus/python/Biomodels-files/BIOMD0000000009.xml",alternative_reverse=False)
-example1.reaction_network[2].listOfReactants.append("f")
-example1.reaction_network[2].reac_stoich.append(1)
-example1.reaction_network[2].listOfProducts.append("f")
-example1.reaction_network[2].prod_stoich.append(1)
-example1.reaction_network[1].listOfReactants.append("g")
-example1.reaction_network[1].reac_stoich.append(1)
-example1.reaction_network[1].listOfProducts.append("g")
-example1.reaction_network[1].prod_stoich.append(1)
-example1.reaction_network[0].listOfReactants.append("h")
-example1.reaction_network[0].reac_stoich.append(1)
-example1.reaction_network[0].listOfProducts.append("h")
-example1.reaction_network[0].prod_stoich.append(1)"""
+"""
 
 for i in example1.reaction_network:
     if i.reversible==True:
